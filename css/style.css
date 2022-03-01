@@ -1,0 +1,533 @@
+* {
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  transition-duration: 300ms;
+}
+
+@media all and (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+  }
+}
+
+section#home {
+  background-color: #212052;
+}
+
+section#home div.header_div {
+  position: -webkit-sticky;
+  position: sticky;
+  background: #212052;
+}
+
+section#home div.header_div header nav a.logo img {
+  width: 180px;
+  margin-top: 20px;
+}
+
+section#home div.header_div header nav button {
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.header_div header nav div.navigations {
+    width: 40%;
+    overflow-y: scroll;
+  }
+}
+
+section#home div.header_div header nav div.navigations button {
+  display: none;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.header_div header nav div.navigations button {
+    display: block;
+    position: fixed;
+  }
+}
+
+section#home div.header_div header nav div.navigations ul {
+  margin-top: 20px;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.header_div header nav div.navigations ul {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+section#home div.header_div header nav div.navigations ul li {
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.header_div header nav div.navigations ul li {
+    font-weight: 300;
+  }
+  section#home div.header_div header nav div.navigations ul li a {
+    color: black;
+  }
+}
+
+section#home div.header_div header nav div.navigations ul li a {
+  color: white;
+  font-size: 18px;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.header_div header nav div.navigations ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 20px;
+  }
+}
+
+section#home div.header_div header nav div.navigations ul li :hover {
+  color: #60C0F5;
+}
+
+section#home div.header_div header nav div.navigations ul li a.downlaod {
+  color: #60C0F5;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.header_div header nav div.navigations ul li a.downlaod {
+    display: none;
+  }
+}
+
+section#home div.header_div header nav div.navigations ul li.sign_up {
+  background-color: #EA9013;
+  border-radius: 5px;
+}
+
+section#home div.header_div header nav div.navigations ul li.sign_up a {
+  color: white;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.header_div header nav div.navigations ul li.sign_up {
+    background-color: #ED9A5A;
+  }
+  section#home div.header_div header nav div.navigations ul li.sign_up a {
+    color: black;
+  }
+}
+
+@media all and (max-width: 768px) {
+  section#home div.header_div header nav div.navigations ul li.login {
+    display: none;
+  }
+}
+
+section#home div.soptlight {
+  background-color: #212052;
+  height: 700px;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.soptlight {
+    overflow-x: hidden;
+    height: 950px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  section#home div.soptlight {
+    overflow-x: hidden;
+    height: 1000px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  section#home div.soptlight {
+    overflow-x: hidden;
+    height: 1050px;
+  }
+}
+
+section#home div.soptlight div.container-box {
+  margin-top: 15px;
+  background-color: #212052;
+}
+
+section#home div.soptlight div.container-box div.content_s {
+  margin-left: -10px;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.soptlight div.container-box div.content_s {
+    margin-left: 30px;
+  }
+}
+
+section#home div.soptlight div.container-box div.content_s h1 {
+  width: 450px;
+  font-size: 2.5rem;
+  margin-top: 80px;
+  color: white;
+  font-weight: 400;
+}
+
+section#home div.soptlight div.container-box div.content_s h1 b {
+  font-weight: 800;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.soptlight div.container-box div.content_s h1 {
+    font-size: 25px;
+  }
+}
+
+section#home div.soptlight div.container-box div.content_s p {
+  font-size: 20px;
+  margin-top: 1.8rem;
+  color: white;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.soptlight div.container-box div.content_s p {
+    font-size: 20px;
+  }
+}
+
+section#home div.soptlight div.container-box div.content_s button {
+  margin-top: 50px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+@media all and (max-width: 568px) {
+  section#home div.soptlight div.container-box div.content_s button {
+    padding: 4px 8px;
+  }
+}
+
+section#home div.soptlight div.container-box div.content_s button:hover {
+  color: #60C0F5;
+  border: #60C0F5 solid 2px;
+}
+
+section#home div.soptlight div.container-box div.content_s span {
+  color: white;
+  margin-left: 20px;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.soptlight div.container-box div.content_s span {
+    margin-left: 5px;
+  }
+}
+
+section#home div.soptlight div.container-box div.content_s span img {
+  margin-right: 10px;
+  width: 40px;
+}
+
+section#home div.soptlight div.container-box div.content_s span img:hover {
+  fill: #60C0F5;
+}
+
+section#home div.soptlight div.container-box div.content_s span:hover {
+  color: #60C0F5;
+}
+
+section#home div.soptlight div.container-box div.form_s {
+  border-radius: 5px;
+  margin-top: 80px;
+  margin-left: 150px;
+  width: 40%;
+  background-color: white;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.soptlight div.container-box div.form_s {
+    margin: 70px auto;
+    width: 60%;
+  }
+}
+
+section#home div.soptlight div.container-box div.form_s div {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+@media all and (max-width: 768px) {
+  section#home div.soptlight div.container-box div.form_s div {
+    padding: 15px;
+  }
+}
+
+section#home div.soptlight div.container-box div.form_s div h2 {
+  color: #212052;
+  font-size: 21px;
+}
+
+section#home div.soptlight div.container-box div.form_s div h4 {
+  font-size: 12px;
+  color: #6464644d;
+}
+
+section#home div.soptlight div.container-box div.form_s div input {
+  width: 100%;
+}
+
+section#home div.soptlight div.container-box div.form_s div button.outer {
+  width: 100%;
+  background-color: #EA9013;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+section#home div.soptlight div.container-box div.form_s div h5 {
+  position: relative;
+  font-size: 13px;
+}
+
+section#home div.soptlight div.container-box div.form_s div div.account_box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section#home div.soptlight div.container-box div.form_s div button {
+  background-color: white;
+  border: 0.5px solid rgba(128, 128, 128, 0.582);
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+
+section#home div.soptlight div.container-box div.form_s div button img {
+  margin: 5px;
+  margin-top: -1px;
+}
+
+section#limitation div.container-lg h1 {
+  margin-top: 80px;
+  font-size: 2.5rem;
+}
+
+section#limitation div.container-lg p {
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+
+section#limitation div.container-lg div.row {
+  background-color: #ECF3FD;
+  margin-top: 80px;
+}
+
+section#limitation div.container-lg div.row div.innerBox {
+  padding: 30px;
+}
+
+section#limitation div.container-lg div.row div.innerBox img {
+  width: 550px;
+}
+
+section#limitation div.container-lg div.row div.innerBox p {
+  margin-top: 30px;
+  font-size: 1.3rem;
+  color: #252525;
+}
+
+section#limitation div.container-lg h6 {
+  margin: 40px;
+}
+
+section#count div.container-lg div.innerContainer_ {
+  margin: auto;
+}
+
+section#count {
+  background-color: #EDF2F7;
+}
+
+section#count div.container-lg div.innerContainer_ {
+  padding: 100px;
+}
+
+@media all and (max-width: 1200px) {
+  section#count div.container-lg div.innerContainer_ {
+    width: 100%;
+    padding: 100px 0;
+    margin: auto;
+    text-align: center;
+  }
+  section#count div.container-lg div.innerContainer_ ul.nav {
+    margin-left: 50px;
+  }
+  section#count div.container-lg div.innerContainer_ span {
+    margin-left: 60px;
+    margin-top: 50px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  section#count div.container-lg div.innerContainer_ div.conatainerOne, section#count div.container-lg div.innerContainer_ div.containerTwo, section#count div.container-lg div.innerContainer_ div.containerThree {
+    text-align: center;
+  }
+  section#count div.container-lg div.innerContainer_ div.conatainerOne span h5, section#count div.container-lg div.innerContainer_ div.conatainerOne span h2, section#count div.container-lg div.innerContainer_ div.containerTwo span h5, section#count div.container-lg div.innerContainer_ div.containerTwo span h2, section#count div.container-lg div.innerContainer_ div.containerThree span h5, section#count div.container-lg div.innerContainer_ div.containerThree span h2 {
+    white-space: nowrap;
+  }
+  section#count div.container-lg div.innerContainer_ div.conatainerOne span h5, section#count div.container-lg div.innerContainer_ div.containerTwo span h5, section#count div.container-lg div.innerContainer_ div.containerThree span h5 {
+    font-size: 25;
+  }
+  section#count div.container-lg div.innerContainer_ div.conatainerOne span h2, section#count div.container-lg div.innerContainer_ div.containerTwo span h2, section#count div.container-lg div.innerContainer_ div.containerThree span h2 {
+    font-size: 20;
+  }
+}
+
+section#count div.container-lg div.innerContainer_ div {
+  margin: 0 20px;
+}
+
+section#count div.container-lg div.innerContainer_ div.ImageContent {
+  margin-top: 30px;
+}
+
+section#count div.container-lg div.innerContainer_ div.ImageContent img {
+  width: 350px;
+}
+
+section#count div.container-lg div.innerContainer_ div.ImageContent span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#count div.container-lg div.innerContainer_ div.ImageContent span h5 {
+  font-size: 50px;
+  color: skyblue;
+}
+
+section#count div.container-lg div.innerContainer_ div.ImageContent span h2 {
+  font-size: 30px;
+}
+
+section#count div.container-lg div.innerContainer_ div.TabContent {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+section#count div.container-lg div.innerContainer_ div.TabContent h4 {
+  margin-top: 30px;
+  text-align: start;
+  margin-left: 40px;
+}
+
+section#count div.container-lg div.containerThree div.ImageContainer span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section#count div.container-lg div.containerThree div.ImageContainer span h5 {
+  font-size: 50px;
+  color: skyblue;
+}
+
+section#count div.container-lg div.containerThree div.ImageContainer span h2 {
+  font-size: 30px;
+}
+
+section#solutions div.container-sm {
+  width: 70%;
+}
+
+section#solutions h1 {
+  margin-top: 100px;
+}
+
+section#solutions p {
+  margin-top: 50px;
+}
+
+section#action {
+  background-color: #212052;
+}
+
+@media all and (max-width: 768px) {
+  section#action h3 {
+    font-size: 20px;
+  }
+  section#action h4 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+
+section#action div.container-lg h3 {
+  padding: 70px  0 0 20px;
+  font-size: 30px;
+  color: #fff;
+}
+
+section#action div.container-lg h4 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 800;
+}
+
+section#action div.container-lg button {
+  background-color: orange;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 50px;
+  border: none;
+}
+
+section#footer {
+  margin-top: 30px;
+}
+
+@media all and (max-width: 998px) {
+  section#footer div img {
+    width: 200px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  section#footer div {
+    text-align: center;
+  }
+}
+
+section#footer div {
+  margin-top: 30px;
+}
+
+section#footer ul {
+  list-style: none;
+}
+
+section#footer li {
+  font-size: 14px;
+}
+
+section#footer li a {
+  text-decoration: none;
+  font-size: 12px;
+}
+
+section#footer li a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=style.css.map */
